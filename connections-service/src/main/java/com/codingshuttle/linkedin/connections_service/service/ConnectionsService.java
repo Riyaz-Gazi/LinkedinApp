@@ -12,7 +12,6 @@ import java.util.List;
 public class ConnectionsService {
 
     private static final Logger log = LoggerFactory.getLogger(ConnectionsService.class);
-
     private final PersonRepository personRepository;
 
     public ConnectionsService(PersonRepository personRepository) {
